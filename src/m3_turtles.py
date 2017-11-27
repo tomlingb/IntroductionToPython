@@ -73,6 +73,11 @@ matt.speed = 10  # Faster
 matt.backward(50)
 matt.left(90)
 matt.forward(50)
+dave.left(45)
+dave.forward(115)
+matt.speed = 1
+matt.backward(30)
+
 
 
 ########################################################################
@@ -109,6 +114,12 @@ matt.forward(50)
 #   As always, test by running the module.
 #
 ########################################################################
+
+Bob = rg.SimpleTurtle('turtle')
+Bob.pen = rg.Pen('purple', 15)
+Bob.forward(100)
+Bob.right(90)
+Bob.backward(60)
 
 ########################################################################
 #
