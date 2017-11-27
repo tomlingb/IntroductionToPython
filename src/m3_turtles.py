@@ -84,7 +84,7 @@ matt.backward(30)
 # DONE: 3.
 #   Add a few more line of your own code above to make one of the
 #   existing Turtles move some more and/or have different
-#   characteristics.
+#   characteristics
 #
 #      ** Nothing fancy is required. **
 #      ** A SUBSEQUENT exercise will let you show your creativity. **
