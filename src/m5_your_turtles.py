@@ -28,8 +28,33 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #
 #  Don't forget to COMMIT your work by using  VCS ~ Commit and Push.
 ########################################################################
+
 import rosegraphics as rg
 
 window = rg.TurtleWindow
 
-Bob = rg.SimpleTurtle
+Bob = rg.SimpleTurtle('turtle')
+Jack = rg.SimpleTurtle('turtle')
+
+Bob.pen = rg.Pen('purple', 2)
+Jack.pen = rg.Pen('red', 2)
+
+Bob.speed = 10
+Jack.speed = 10
+
+size1 = 50
+size2 = 100
+
+for k in range(10):
+    Bob.draw_circle(size1)
+    Jack.draw_circle(size1)
+    Bob.pen_up()
+    Bob.right(45)
+    Bob.forward(10)
+    Bob.left(45)
+    Bob.pen_down()
+    Jack.pen_up()
+    Jack.right(45)
+    Jack.forward(15)
+    Jack.left(45)
+    Jack.pen_down()
