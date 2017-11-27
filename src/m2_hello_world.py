@@ -64,7 +64,7 @@ print('Software design is fun!')
 
 ########################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   Add yet another   print   statement.
 #   This one should print the *product* of 3,607 and 34,227.
 #   Let the computer do the arithmetic for you (no calculators!).
@@ -75,6 +75,8 @@ print('Software design is fun!')
 #   (HINT: It is an INTERESTING number.)  Get help if your value is wrong.
 #
 ########################################################################
+
+print(3607 * 34227)
 
 ########################################################################
 #
